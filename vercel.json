@@ -1,6 +1,5 @@
 {
   "framework": null,
-  "buildCommand": "SHA=$(echo \"${VERCEL_GIT_COMMIT_SHA:-local}\" | cut -c1-7); sed -i \"s/__COMMIT__/$SHA/g\" index.html",
   "outputDirectory": ".",
   "redirects": [
     { "source": "/menu.html", "destination": "/#menu", "permanent": true },
